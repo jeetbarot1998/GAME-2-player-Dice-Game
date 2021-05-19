@@ -10,6 +10,7 @@ let btnHold = document.querySelector('.btn--hold');
 let dice = document.querySelector('.dice');
 let current, activePlayer, scores;
 function init() {
+  alert('First Person to reach 100 will win the game');
   current = 0;
   activePlayer = 0;
   scores = [0, 0];
